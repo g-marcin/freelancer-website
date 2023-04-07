@@ -43,6 +43,13 @@
   margin: auto;
 }
 
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
 #shadow__Top {
   width: 40%;
   height: 1px;
@@ -125,9 +132,9 @@ a {
   padding-top: 77px;
   padding-bottom: 108px;
   align-content: center;
-  background: radial-gradient(farthest-side at 25vw 25vh, #943dda66, #bb91dc66, transparent),
-    radial-gradient(farthest-side at 45vw 110vh, #8e9eeacc, #8e9eeacc, transparent),
-    radial-gradient(farthest-side at 80vw 55vh, #acafea, #cdcfe9, transparent);
+  background: radial-gradient(farthest-side at 25vw 25vh, #943dda99, #bb91dc99, transparent),
+    radial-gradient(farthest-side at 45vw 110vh, #8e9eea99, #8e9eea99, transparent),
+    radial-gradient(farthest-side at 80vw 55vh, #acafea99, #cdcfe999, transparent);
 }
 
 .wrapper__Frame__Home {
@@ -227,10 +234,11 @@ a {
 }
 
 .wrapper__Cards {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   display: flex;
   align-self: center;
   justify-content: space-around;
+  min-width: 50vw;
   padding: 7.5px;
   gap: 40px;
   padding-right: 0;
@@ -256,7 +264,9 @@ a {
   align-items: center;
   justify-content: space-evenly;
   background: #cccef2;
-  padding: 2vw;
+  height: 170px;
+  width: 12vw;
+  min-width: 155px;
   border-radius: 12px;
 }
 
@@ -268,15 +278,15 @@ a {
     radial-gradient(farthest-side at 65vw 110vh, #d5dbe9, #ffffff66, transparent),
     radial-gradient(farthest-side at 80vw 55vh, #dcd6ed, #cdcfe9, transparent),
     radial-gradient(farthest-side at 35vw 110vh, #dcd6ed, #cdcfe9, transparent);
-  padding: 0 25px;
+  padding: 109px 172px;
   font-weight: 600;
 }
 
 .frame__Page {
   display: flex;
-  /* border: 1px solid black; */
-
-  z-index: 1;
+  border: 1px solid black;
+  justify-content: space-around;
+  padding: 10px 120px;
 }
 
 @media (max-width: 1020px) {
@@ -300,21 +310,22 @@ a {
 
 .wrapper__Image__Page {
   display: flex;
+
   align-items: center;
+
+  margin: 0;
+  padding: 0;
 }
 
 .wrapper__article__Page {
   /* border: 1px solid black; */
   display: flex;
-  justify-content: space-between;
-  align-self: center;
-  align-items: start;
+
   flex-direction: column;
-  min-height: 332px;
-  min-width: 579px;
+
   margin: 67.5px 0;
   padding: 0 6px;
-  gap: 33px;
+  gap: 20px;
   line-height: 1.2;
 }
 
