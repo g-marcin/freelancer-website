@@ -253,6 +253,7 @@ header {
 a {
     color: black;
     text-decoration: none;
+    cursor: pointer;
 }
 .dropdown__Account {
     display: flex;
