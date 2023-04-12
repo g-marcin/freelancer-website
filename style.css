@@ -189,7 +189,7 @@
 #shadow__Top {
     width: 50%;
     height: 1px;
-    margin-top: -2px;
+    margin-top: -3px;
     margin-left: 10%;
     box-shadow: 3px 2px 3px #333;
     border-radius: 50%;
@@ -364,7 +364,7 @@ a {
             transparent
         ),
         radial-gradient(
-            closest-corner at 75vw 25vh,
+            ellipse 35% 20% at 75vw 25vh,
             #cd8fe07a,
             #cdcfe9,
             transparent
