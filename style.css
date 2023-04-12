@@ -36,7 +36,6 @@
 .Hind-Medium {
     font-family: Hind-Medium;
 }
-/* fonts */
 
 /* RWD */
 @media (max-width: 500px) {
@@ -106,6 +105,7 @@
 
     .wrapper__Navbar {
         width: 40vw;
+        margin-right: 25px;
     }
 
     .wrapper__Frame__Home {
@@ -167,7 +167,6 @@
         gap: 0px;
     }
 }
-/* RWD */
 
 /* utils */
 
@@ -209,8 +208,6 @@
     cursor: pointer;
 }
 
-/* utils */
-
 article,
 h1,
 h2,
@@ -225,6 +222,7 @@ main {
 
 header {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 0 3vw;
     height: 77px;
@@ -364,7 +362,7 @@ a {
             transparent
         ),
         radial-gradient(
-            ellipse 35% 20% at 75vw 25vh,
+            ellipse 35% 50% at 75vw 25vh,
             #cd8fe07a,
             #cdcfe9,
             transparent
@@ -375,9 +373,10 @@ a {
             #cdcfe900
         ),
         radial-gradient(
-            ellipse 25% 15% at 25vw 155vh,
+            ellipse 25% 45% at 25vw 115vh,
             #cd8fe07a,
-            rgba(255, 255, 255, 0) 100%
+            rgba(255, 255, 255, 0) 100%,
+            transparent
         );
 
     padding: 108px 25px;
