@@ -191,8 +191,7 @@
     height: 1px;
     margin-top: -2px;
     margin-left: 10%;
-    box-shadow: 3px 2px 3px
-        #333;
+    box-shadow: 3px 2px 3px #333;
     border-radius: 50%;
     position: relative;
     right: 12vw;
@@ -269,25 +268,21 @@ a {
     flex-direction: column;
     padding-top: 77px;
     padding-bottom: 108px;
-
     align-content: center;
     background: radial-gradient(
-            farthest-side at
-                25vw 25vh,
-            #943dda66,
+            farthest-side at 25vw 25vh,
+            #933dda7e,
             #bb91dc1a,
             transparent
         ),
         radial-gradient(
-            farthest-side at
-                45vw 110vh,
+            farthest-side at 45vw 110vh,
             #8e9eeacc,
             #8e9eea66,
             transparent
         ),
         radial-gradient(
-            farthest-side at
-                80vw 55vh,
+            farthest-side at 80vw 55vh,
             #acafea,
             #cdcfe9,
             transparent
@@ -361,33 +356,30 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+
     background: radial-gradient(
-            farthest-side at
-                35vw 25vh,
-            #d5dbe9,
-            #ffffff66,
+            farthest-side at 28vw 58vh,
+            #88a4e441,
+            #ffffff7e,
             transparent
         ),
         radial-gradient(
-            farthest-side at
-                65vw 110vh,
-            #d5dbe9,
-            #ffffff66,
-            transparent
-        ),
-        radial-gradient(
-            farthest-side at
-                80vw 55vh,
-            #edd6d6,
-            #cdcfe9
-        ),
-        radial-gradient(
-            farthest-side at
-                35vw 110vh,
-            #dcd6ed,
+            closest-corner at 75vw 25vh,
+            #cd8fe07a,
             #cdcfe9,
             transparent
+        ),
+        radial-gradient(
+            farthest-corner at 65vw 118vh,
+            #88a4e485,
+            #cdcfe900
+        ),
+        radial-gradient(
+            ellipse 25% 15% at 25vw 155vh,
+            #cd8fe07a,
+            rgba(255, 255, 255, 0) 100%
         );
+
     padding: 108px 25px;
     font-weight: 600;
 }
@@ -398,7 +390,7 @@ a {
     gap: 250px;
     /* border: 1px solid black; */
     justify-content: center;
-    margin: auto;
+    padding: auto;
     max-width: 1168px;
 }
 

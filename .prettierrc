@@ -5,5 +5,5 @@
   "proseWrap": "preserve",
   "endOfLine": "lf",
   "bracketSpacing": true,
-  "printWidth": 30
+  "printWidth": 50
 }
