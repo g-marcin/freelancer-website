@@ -220,6 +220,7 @@ a {
     margin: 0px;
     padding: 0px;
 }
+
 .dropdown__Account {
     display: flex;
     align-items: center;
@@ -262,7 +263,6 @@ a {
 }
 
 .wrapper__Frame__Home {
-    /* border: 1px solid black; */
     display: flex;
     padding: 10px 100px;
     max-width: 1360px;
@@ -270,7 +270,6 @@ a {
 }
 
 .wrapper__article__Home {
-    /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
     align-self: center;
@@ -301,7 +300,6 @@ a {
 }
 
 .wrapper__Cards {
-    /* border: 1px solid black; */
     display: flex;
     align-self: center;
     justify-content: space-around;
@@ -323,11 +321,9 @@ a {
 }
 
 .wrapper__Page {
-    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     align-items: center;
-
     background: radial-gradient(
             farthest-side at 28vw 58vh,
             #88a4e441,
@@ -357,7 +353,6 @@ a {
 }
 
 .frame__Page {
-    /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
     gap: 250px;
@@ -379,13 +374,11 @@ a {
 }
 
 .wrapper__article__Page {
-    /* border: 1px solid black; */
     display: flex;
     justify-content: space-evenly;
     align-self: center;
     align-items: start;
     flex-direction: column;
-
     margin: 67.5px 0;
     padding: 0 6px;
     gap: 30px;
@@ -393,7 +386,6 @@ a {
 }
 
 .wrapper__Comment {
-    /* border: 1px solid black; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -403,7 +395,6 @@ a {
 }
 
 .frame__Page__Comment {
-    /* border: 1px solid black; */
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -412,13 +403,11 @@ a {
 }
 
 .wrapper__article__Comment {
-    /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
     align-self: center;
     align-items: start;
     flex-direction: column;
-
     padding: 0 6px;
     gap: 30px;
     line-height: 1.2;
@@ -431,15 +420,12 @@ a {
 }
 
 .footer {
-    /* border: 1px solid black; */
     height: 220px;
     display: flex;
-
     align-items: center;
     justify-items: center;
     justify-content: center;
     gap: 80px;
-    width: 100%;
     padding: 15px;
 }
 
