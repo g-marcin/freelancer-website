@@ -1,14 +1,9 @@
 {
-  "htmlWhitespaceSensitivity": "css",
-  "singleAttributePerLine": false,
-  "bracketSameLine": false,
-  "printWidth": 250,
-  "proseWrap": "preserve",
-  "quoteProps": "as-needed",
-  "semi": true,
-  "singleQuote": true,
   "tabWidth": 4,
-  "useTabs": true,
-  "filepath": "c:\\Users\\mgrzmil\\Documents\\programowanie\\freelancer website\\index.html",
-  "parser": "html"
+  "semi": false,
+  "singleQuote": true,
+  "proseWrap": "preserve",
+  "endOfLine": "lf",
+  "bracketSpacing": true,
+  "printWidth": 50
 }
