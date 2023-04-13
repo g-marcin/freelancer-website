@@ -66,6 +66,10 @@
         flex-direction: column;
     }
 
+    .wrapper__Image__Home {
+        padding: 25px;
+    }
+
     .header__Home {
         font-size: 50px !important;
         max-width: 70%;
