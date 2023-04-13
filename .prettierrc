@@ -1,9 +1,14 @@
 {
-  "tabWidth": 4,
-  "semi": false,
-  "singleQuote": true,
+  "htmlWhitespaceSensitivity": "css",
+  "singleAttributePerLine": false,
+  "bracketSameLine": false,
+  "printWidth": 250,
   "proseWrap": "preserve",
-  "endOfLine": "lf",
-  "bracketSpacing": true,
-  "printWidth": 50
+  "quoteProps": "as-needed",
+  "semi": true,
+  "singleQuote": true,
+  "tabWidth": 4,
+  "useTabs": true,
+  "filepath": "c:\\Users\\mgrzmil\\Documents\\programowanie\\freelancer website\\index.html",
+  "parser": "html"
 }
